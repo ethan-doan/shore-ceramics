@@ -1,6 +1,6 @@
 import "../styles/Contact.css";
 import { useState, useRef } from "react";
-import emailjs from "emailjs-com";
+import emailjs from "@emailjs/browser";
 import Socials from "./Socials.tsx";
 
 function Contact() {
