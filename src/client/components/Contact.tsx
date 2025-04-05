@@ -4,10 +4,10 @@ import emailjs from "emailjs-com";
 import Socials from "./Socials.tsx";
 
 function Contact() {
-    const formRef = useRef();
+    const formRef = useRef<HTMLFormElement>(null);
     const [loading, setLoading] = useState(false);
 
-    const handleSubmit = (e) => {
+    const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
         e.preventDefault();
         setLoading(true);
 
@@ -70,7 +70,7 @@ function Contact() {
                     name="message"
                     placeholder="Comment"
                     className="form-textarea"
-                    rows="5"
+                    rows={5}
                     required
                 />
                 <button className="contact-submit" tabIndex={0} type="submit">
