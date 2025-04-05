@@ -1,6 +1,7 @@
 import "../styles/Contact.css";
 import { useState, useRef } from "react";
 import emailjs from "@emailjs/browser";
+import { EmailJSResponseStatus } from "@emailjs/browser";
 import Socials from "./Socials.tsx";
 
 function Contact() {
@@ -9,6 +10,11 @@ function Contact() {
 
     const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
         e.preventDefault();
+
+        if (!formRef.current) {
+            return;
+        }
+
         setLoading(true);
 
         emailjs
@@ -19,11 +25,11 @@ function Contact() {
                 "MqPxgpxuq6ZHXMigo"
             )
             .then(
-                (result) => {
+                (result: EmailJSResponseStatus) => {
                     console.log("Email sent succesfully!", result.text);
                     formRef.current.reset();
                 },
-                (error) => {
+                (error: any) => {
                     console.error("Failed to send email:", error.text);
                 }
             )
