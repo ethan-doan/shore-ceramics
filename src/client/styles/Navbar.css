@@ -1,0 +1,83 @@
+.navbar {
+    width: 95vw;
+    height: 7.5vh;
+    margin-left: 2.5vw;
+    margin-right: 2.5vw;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    font-family: "Metamorphous", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.icon-wrapper {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center; /* makes sure SVG stays vertically centered */
+    justify-content: center;
+    flex-shrink: 0;
+    cursor: pointer;
+}
+
+.navbar-icon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: opacity 0.075s ease-in-out;
+}
+
+.navbar-icon.visible {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.navbar-icon.hidden {
+    opacity: 0;
+    pointer-events: none;
+}
+
+.navbar-icon:focus {
+    outline: none;
+}
+
+@media (max-width: 600px) {
+    .navbar {
+        font-size: 30px;
+    }
+
+    .contact-me {
+        visibility: hidden;
+    }
+}
+
+@media (min-width: 600px) {
+    .navbar {
+        font-size: 40px;
+    }
+}
+
+.navbar-header a {
+    text-decoration: none;
+    color: #7dacc0;
+}
+
+.contact-me {
+    height: 40px;
+    border-radius: 25px;
+    border: none;
+    background-color: #7cacc0;
+    padding-left: 1%;
+    padding-right: 1%;
+    font-size: 14px;
+    color: #e9f1f4;
+}
+
+.contact-me a {
+    text-decoration: none;
+    color: #e9f1f4;
+}
