@@ -27,7 +27,7 @@ function Contact() {
             .then(
                 (result: EmailJSResponseStatus) => {
                     console.log("Email sent succesfully!", result.text);
-                    formRef.current.reset();
+                    formRef.current?.reset();
                 },
                 (error: any) => {
                     console.error("Failed to send email:", error.text);
