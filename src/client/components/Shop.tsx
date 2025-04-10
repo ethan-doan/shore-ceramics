@@ -1,9 +1,10 @@
+import "../styles/Shop.css";
 import Socials from "./Socials.tsx";
 
 function Shop() {
     return (
-        <div className="socials-container">
-            <div className="socials-content">
+        <div className="shop-container">
+            <div className="shop-content">
                 Coming soon... In the meantime, please contact me via email for
                 orders or other inquiries
             </div>
