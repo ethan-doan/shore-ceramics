@@ -1,3 +1,8 @@
+.shop-container {
+    font-size: 20px;
+    text-align: center;
+}
+
 @media (max-width: 600px) {
     .shop-container {
         padding-left: 10vw;
