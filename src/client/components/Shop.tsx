@@ -1,3 +1,4 @@
+import "../styles/Shop.css";
 import Socials from "./Socials.tsx";
 
 function Shop() {
