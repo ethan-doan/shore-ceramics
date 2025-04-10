@@ -1,0 +1,20 @@
+@media (max-width: 600px) {
+    .shop-container {
+        padding-left: 10vw;
+        padding-right: 10vw;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 1200px) {
+    .shop-container {
+        padding-left: 20vw;
+        padding-right: 20vw;
+    }
+}
+
+@media (min-width: 1200px) {
+    .shop-container {
+        padding-left: 33.33vw;
+        padding-right: 33.33vw;
+    }
+}
