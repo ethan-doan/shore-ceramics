@@ -45,9 +45,19 @@
     outline: none;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 400px) {
     .navbar {
-        font-size: 30px;
+        font-size: 22px;
+    }
+
+    .contact-me {
+        visibility: hidden;
+    }
+}
+
+@media (min-width: 400px) and (max-width: 600px) {
+    .navbar {
+        font-size: 26px;
     }
 
     .contact-me {

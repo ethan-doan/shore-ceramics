@@ -43,7 +43,7 @@ function Contact() {
             <div className="contact-header">Contact Me</div>
             <div className="contact-description">
                 Have inquiries about my collection or a commission? Shoot me an
-                email and I we can chat!
+                email and we can chat!
             </div>
             <form
                 ref={formRef}

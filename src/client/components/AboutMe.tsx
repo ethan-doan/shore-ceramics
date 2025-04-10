@@ -1,10 +1,12 @@
 import "../styles/AboutMe.css";
+import Portrait from "../media/Portrait.jpeg";
 import Socials from "./Socials.tsx";
 
 function AboutMe() {
     return (
         <div className="about-me-container fade-in">
             <div className="about-me-header">About Me</div>
+            <img className="about-me-portrait" src={Portrait} alt="portrait" />
             <div className="about-me-content">
                 Hi, I’m Lauren and I’ve been doing pottery for as long as I can
                 remember. I started in art class in elementary school, and

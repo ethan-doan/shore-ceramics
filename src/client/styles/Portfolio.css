@@ -1,40 +1,29 @@
-.about-me-header {
+.portfolio-header {
     font-size: 35px;
 }
 
-.about-me-container {
-    position: relative;
-    padding-top: 2.5%;
-    padding-bottom: 2.5%;
-
-    font-size: 20px;
-    text-align: justify;
-
-    height: auto;
-}
-
-.about-me-portrait {
+.portfolio-item {
     width: 100%;
-    margin-top: 5%;
-    margin-bottom: 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
 }
 
 @media (max-width: 600px) {
-    .about-me-container {
+    .portoflio-container {
         padding-left: 10vw;
         padding-right: 10vw;
     }
 }
 
 @media (min-width: 600px) and (max-width: 1200px) {
-    .about-me-container {
+    .portfolio-container {
         padding-left: 20vw;
         padding-right: 20vw;
     }
 }
 
 @media (min-width: 1200px) {
-    .about-me-container {
+    .portfolio-container {
         padding-left: 33.33vw;
         padding-right: 33.33vw;
     }
