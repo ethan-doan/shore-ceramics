@@ -1,5 +1,4 @@
 import "../styles/Home.css";
-import Carousel from "./Carousel.tsx";
 import Socials from "./Socials.tsx";
 import HomeImage from "../media/HomeImage.jpeg";
 
