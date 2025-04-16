@@ -1,0 +1,24 @@
+.shop-item-image {
+    width: 100%;
+}
+
+.shop-item-content {
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.shop-item-buy {
+    height: 40px;
+    border-radius: 25px;
+    border: none;
+    background-color: #7cacc0;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+    font-size: 14px;
+    color: #e9f1f4;
+}
+
+.shop-item-buy a {
+    text-decoration: none;
+    color: #e9f1f4;
+}
