@@ -6,7 +6,7 @@
 
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
 
     font-family: "Metamorphous", serif;
     font-weight: 400;
@@ -25,9 +25,9 @@
 }
 
 .navbar-icon {
-    position: absolute;
-    top: 0;
-    left: 0;
+    position: fixed;
+    top: 27.5px;
+    left: 27.5px;
     transition: opacity 0.075s ease-in-out;
 }
 
@@ -71,6 +71,10 @@
     }
 }
 
+.navbar-header {
+    transform: translateX(-27.5px);
+}
+
 .navbar-header a {
     text-decoration: none;
     color: #7dacc0;
@@ -78,16 +82,12 @@
 
 .contact-me {
     height: 40px;
+    width: 6rem;
     border-radius: 25px;
     border: none;
     background-color: #7cacc0;
     padding-left: 1%;
     padding-right: 1%;
     font-size: 14px;
-    color: #e9f1f4;
-}
-
-.contact-me a {
-    text-decoration: none;
     color: #e9f1f4;
 }

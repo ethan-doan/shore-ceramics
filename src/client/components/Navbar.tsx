@@ -43,9 +43,6 @@ function Navbar() {
             <div className="navbar-header">
                 <Link to="/">Shore Ceramics</Link>
             </div>
-            <button className="contact-me">
-                <Link to="/contact">Contact Me</Link>
-            </button>
             {isModalOpen && (
                 <NavbarModal onClose={handleClose} isClosing={isClosing} />
             )}

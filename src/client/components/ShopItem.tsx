@@ -20,9 +20,9 @@ function ShopItem({ imageUrl, description, price }: ShopItemProps) {
                     <p className="shop-item-description">
                         {description} | {price}
                     </p>
-                    <button className="shop-item-buy">
-                        <Link to="/contact">Buy</Link>
-                    </button>
+                    <Link to="/contact">
+                        <button className="shop-item-buy">Buy</button>
+                    </Link>
                 </div>
             </div>
         </div>

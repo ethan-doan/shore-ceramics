@@ -12,13 +12,9 @@
     border-radius: 25px;
     border: none;
     background-color: #7cacc0;
-    padding-left: 2.5%;
-    padding-right: 2.5%;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
     font-size: 14px;
     color: #e9f1f4;
-}
-
-.shop-item-buy a {
-    text-decoration: none;
-    color: #e9f1f4;
+    cursor: pointer;
 }
