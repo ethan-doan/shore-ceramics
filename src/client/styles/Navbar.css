@@ -33,7 +33,6 @@
 
 .navbar-icon {
     position: absolute;
-    /* left: 27.5px; */
     transition: opacity 0.075s ease-in-out;
 }
 
@@ -75,10 +74,6 @@
     .navbar {
         font-size: 40px;
     }
-}
-
-.navbar-header {
-    transform: translateX(-27.5px);
 }
 
 .navbar-header a {
