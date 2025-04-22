@@ -1,6 +1,4 @@
 import "../styles/Portfolio.css";
-import BlueMug from "../media/BlueMug.jpeg";
-import GreenMug from "../media/GreenMug.jpeg";
 import PurpleMug from "../media/PurpleMug.jpeg";
 import RedVase from "../media/RedVase.jpeg";
 import RusticMug from "../media/RusticMug.jpeg";
