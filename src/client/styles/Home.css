@@ -1,11 +1,11 @@
 .home-image-wrapper {
     position: relative;
     display: inline-block;
+    width: 100%;
 }
 
 .home-image-wrapper img {
     display: block;
-    width: 100%;
     height: auto;
 }
 

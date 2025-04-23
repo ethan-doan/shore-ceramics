@@ -50,10 +50,21 @@ function Portfolio() {
                     src="/media/MoodyBowl.jpg"
                     alt=""
                 />
-                <img className="portfolio-item" src={PurpleMug} alt="" />
-                <img className="portfolio-item" src={RedVase} alt="" />
-                <img className="portfolio-item" src={RusticMug} alt="" />
-                <img className="portfolio-item" src={SandyMug} alt="" />
+                <img
+                    className="portfolio-item"
+                    src="/media/DoubleMugs.jpg"
+                    alt=""
+                />
+                <img
+                    className="portfolio-item"
+                    src="/media/PurpleMug.jpg"
+                    alt=""
+                />
+                <img
+                    className="portfolio-item"
+                    src="/media/RedVase.jpg"
+                    alt=""
+                />
             </div>
             <Socials />
         </div>
