@@ -43,7 +43,8 @@ function Contact() {
             <div className="contact-header">Contact Me</div>
             <div className="contact-description">
                 Have inquiries about my collection or a commission? Shoot me an
-                email and we can chat!
+                email and we can chat! If you are interested in a specifici
+                piece, please specify which one.
             </div>
             <form
                 ref={formRef}
@@ -74,7 +75,7 @@ function Contact() {
                 />
                 <textarea
                     name="message"
-                    placeholder="Comment"
+                    placeholder="Comment (e.g., Interested in the Moody Bowl)"
                     className="form-textarea"
                     rows={5}
                     required
