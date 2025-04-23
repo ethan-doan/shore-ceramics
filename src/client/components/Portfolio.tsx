@@ -61,6 +61,21 @@ function Portfolio() {
                     src="/media/RedVase.jpg"
                     alt=""
                 />
+                <img
+                    className="portfolio-item"
+                    src="/media/LightPinkRingDish.jpg"
+                    alt=""
+                />
+                <img
+                    className="portfolio-item"
+                    src="/media/RainforestMug.jpg"
+                    alt=""
+                />
+                <img
+                    className="portfolio-item"
+                    src="/media/GreenCup.jpg"
+                    alt=""
+                />
             </div>
             <Socials />
         </div>

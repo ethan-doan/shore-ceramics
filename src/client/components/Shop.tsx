@@ -17,11 +17,6 @@ function Shop() {
                     price="$20.00"
                 />
                 <ShopItem
-                    imageUrl="/media/PurpleBubbleVase.jpg"
-                    description="Purple Bubble Vase"
-                    price="$40.00"
-                />
-                <ShopItem
                     imageUrl="/media/ModernLineVase.jpg"
                     description="Modern Line Vase"
                     price="$40.00"
