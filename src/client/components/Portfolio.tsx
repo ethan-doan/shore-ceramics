@@ -1,8 +1,4 @@
 import "../styles/Portfolio.css";
-import PurpleMug from "../media/PurpleMug.jpeg";
-import RedVase from "../media/RedVase.jpeg";
-import RusticMug from "../media/RusticMug.jpeg";
-import SandyMug from "../media/SandyMug.jpeg";
 import Socials from "./Socials.tsx";
 
 function Portfolio() {
