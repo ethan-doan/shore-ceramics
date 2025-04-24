@@ -1,13 +1,8 @@
-.about-me-header {
-    font-size: 35px;
-}
-
 .about-me-container {
     position: relative;
     padding-top: 2.5%;
     padding-bottom: 2.5%;
 
-    font-size: 20px;
     text-align: justify;
 
     height: auto;
@@ -21,21 +16,39 @@
 
 @media (max-width: 600px) {
     .about-me-container {
+        font-size: 16px;
+
         padding-left: 10vw;
         padding-right: 10vw;
+    }
+
+    .about-me-header {
+        font-size: 22px;
     }
 }
 
 @media (min-width: 600px) and (max-width: 1200px) {
     .about-me-container {
+        font-size: 20px;
+
         padding-left: 20vw;
         padding-right: 20vw;
+    }
+
+    .about-me-header {
+        font-size: 35px;
     }
 }
 
 @media (min-width: 1200px) {
     .about-me-container {
+        font-size: 20px;
+
         padding-left: 33.33vw;
         padding-right: 33.33vw;
+    }
+
+    .about-me-header {
+        font-size: 35px;
     }
 }

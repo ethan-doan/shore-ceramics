@@ -4,7 +4,7 @@ import ShopItem from "./ShopItem.tsx";
 
 function Shop() {
     return (
-        <div className="shop-container">
+        <div className="shop-container fade-in">
             <div className="shop-content">
                 <ShopItem
                     imageUrl="/media/GreenMugTall.jpg"

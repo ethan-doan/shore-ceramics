@@ -1,7 +1,3 @@
-.portfolio-header {
-    font-size: 35px;
-}
-
 .portfolio-item {
     width: 100%;
     padding-top: 5%;
@@ -13,6 +9,10 @@
         padding-left: 10vw;
         padding-right: 10vw;
     }
+
+    .portfolio-header {
+        font-size: 22px;
+    }
 }
 
 @media (min-width: 600px) and (max-width: 1200px) {
@@ -20,11 +20,19 @@
         padding-left: 20vw;
         padding-right: 20vw;
     }
+
+    .portfolio-header {
+        font-size: 35px;
+    }
 }
 
 @media (min-width: 1200px) {
     .portfolio-container {
         padding-left: 33.33vw;
         padding-right: 33.33vw;
+    }
+
+    .portfolio-header {
+        font-size: 35px;
     }
 }

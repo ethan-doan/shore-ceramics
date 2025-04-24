@@ -3,7 +3,7 @@ import Socials from "./Socials.tsx";
 
 function Home() {
     return (
-        <div className="home-container">
+        <div className="home-container fade-in">
             <div className="home-image-wrapper">
                 <div className="home-image-text">Pottery by Lauren Shore</div>
                 <img
