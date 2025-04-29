@@ -1,5 +1,7 @@
 .shop-item-image {
     width: 100%;
+
+    border-radius: 1rem;
 }
 
 .shop-item-content {
