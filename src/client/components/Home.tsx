@@ -2,6 +2,7 @@ import "../styles/Home.css";
 import { useRef, useState } from "react";
 import Socials from "./Socials.tsx";
 import emailjs from "@emailjs/browser";
+import { EmailJSResponseStatus } from "@emailjs/browser";
 
 function Home() {
     const formRef = useRef<HTMLFormElement>(null);
