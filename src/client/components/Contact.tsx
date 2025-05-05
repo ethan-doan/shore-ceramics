@@ -40,7 +40,7 @@ function Contact() {
             );
     };
 
-    const formatPhone = (value) => {
+    const formatPhone = (value: string) => {
         const digits = value.replace(/\D/g, "").slice(0, 10);
         const area = digits.slice(0, 3);
         const middle = digits.slice(3, 6);
