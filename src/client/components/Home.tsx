@@ -1,4 +1,5 @@
 import "../styles/Home.css";
+import { SubmissionStatus } from "../enums/SubmissionStatus.ts";
 import { useRef, useState } from "react";
 import Socials from "./Socials.tsx";
 import emailjs from "@emailjs/browser";
@@ -6,7 +7,9 @@ import { EmailJSResponseStatus } from "@emailjs/browser";
 
 function Home() {
     const formRef = useRef<HTMLFormElement>(null);
-    const [loading, setLoading] = useState(false);
+    const [status, setStatus] = useState<SubmissionStatus>(
+        SubmissionStatus.None
+    );
 
     const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
         e.preventDefault();
@@ -14,8 +17,6 @@ function Home() {
         if (!formRef.current) {
             return;
         }
-
-        setLoading(true);
 
         emailjs
             .sendForm(
@@ -27,19 +28,34 @@ function Home() {
             .then(
                 (result: EmailJSResponseStatus) => {
                     console.log("Email sent succesfully!", result.text);
+                    setStatus(SubmissionStatus.Success);
                     formRef.current?.reset();
                 },
+                // eslint-disable-next-line @typescript-eslint/no-explicit-any
                 (error: any) => {
+                    setStatus(SubmissionStatus.Error);
                     console.error("Failed to send email:", error.text);
                 }
-            )
-            .finally(() => {
-                setLoading(false);
-            });
+            );
     };
 
     return (
         <div className="home-container fade-in">
+            {true && (
+                <div className="home-upcoming-shows">
+                    <div className="home-header">Upcoming Shows</div>
+                    <div
+                        className="home-description"
+                        style={{ marginTop: "0.5rem" }}
+                    >
+                        Saturday, June 7th
+                    </div>
+                    <div className="home-description">
+                        Additional Details Coming Soon...
+                    </div>
+                </div>
+            )}
+
             <div className="home-image-array">
                 <img
                     className="home-image"
@@ -59,8 +75,13 @@ function Home() {
             </div>
             <div className="home-about-me">
                 <div className="home-about-me-content">
-                    <div className="home-about-me-header">Handmade Pottery</div>
-                    <div className="home-about-me-description">
+                    <div
+                        className="home-header"
+                        style={{ marginBottom: "1rem" }}
+                    >
+                        Handmade Pottery
+                    </div>
+                    <div className="home-description">
                         Hi, I’m Lauren and I’ve been doing pottery for as long
                         as I can remember. I started in art class in elementary
                         school, and really focused on throwing on the wheel in
@@ -77,11 +98,31 @@ function Home() {
                 className="contact-form"
                 onSubmit={handleSubmit}
             >
+                <div className="home-mailing-list-alert-banner">
+                    {status !== SubmissionStatus.None && (
+                        <div
+                            className={`alert-banner ${
+                                status === SubmissionStatus.Success
+                                    ? "alert-success"
+                                    : "alert-error"
+                            }`}
+                        >
+                            {status === SubmissionStatus.Success
+                                ? "Email sent successfully!"
+                                : "Failed to send email. Please try again."}
+                        </div>
+                    )}
+                </div>
                 <div className="home-mailing-list">
-                    <div className="home-mailing-list-header">
-                        Stay in the loop!
-                    </div>
-                    <div className="home-mailing-list-description">
+                    <div className="home-header">Stay in the loop!</div>
+                    <div
+                        className="home-description"
+                        style={{
+                            textAlign: "center",
+                            marginTop: "1rem",
+                            marginBottom: "1rem",
+                        }}
+                    >
                         Be the first to know about new collections, upcoming
                         shows, and more.
                     </div>
@@ -93,7 +134,7 @@ function Home() {
                         required
                     />
                     <button className="home-mailing-list-submit">
-                        {loading ? "Sending..." : "Sign Up"}
+                        Sign Up
                     </button>
                 </div>
             </form>

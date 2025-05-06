@@ -1,3 +1,18 @@
+.home-upcoming-shows {
+    display: flex;
+    flex-direction: column;
+
+    text-align: center;
+
+    padding: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+
+    border: 2px solid;
+    border-radius: 1rem;
+    border-color: #7dacc0;
+}
+
 .home-image-array {
     display: flex;
 }
@@ -36,8 +51,11 @@
     flex-direction: column;
     align-items: center;
 
-    margin-top: 5rem;
     margin-bottom: 5rem;
+}
+
+.home-mailing-list-alert-banner {
+    margin-top: 5rem;
 }
 
 .home-mailing-list-input {
@@ -99,20 +117,12 @@
         margin-bottom: 2rem;
     }
 
-    .home-about-me-header {
-        font-size: 22px;
-    }
-
-    .home-about-me-description {
+    .home-description {
         font-size: 16px;
     }
 
-    .home-mailing-list-header {
+    .home-header {
         font-size: 22px;
-    }
-
-    .home-mailing-list-description {
-        font-size: 16px;
     }
 
     .home-mailing-list-input {
@@ -144,19 +154,11 @@
         width: 31.5%;
     }
 
-    .home-about-me-header {
+    .home-header {
         font-size: 35px;
     }
 
-    .home-about-me-description {
-        font-size: 20px;
-    }
-
-    .home-mailing-list-header {
-        font-size: 35px;
-    }
-
-    .home-mailing-list-description {
+    .homee-description {
         font-size: 20px;
     }
 
@@ -181,19 +183,11 @@
         width: 31.5%;
     }
 
-    .home-about-me-header {
+    .home-header {
         font-size: 35px;
     }
 
-    .home-about-me-description {
-        font-size: 20px;
-    }
-
-    .home-mailing-list-header {
-        font-size: 35px;
-    }
-
-    .home-mailing-list-description {
+    .home-description {
         font-size: 20px;
     }
 

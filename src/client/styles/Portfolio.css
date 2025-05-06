@@ -1,5 +1,16 @@
+.portfolio-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 1rem;
+}
+
 .portfolio-item {
+    flex: 1 1 calc(33.333% - 1rem);
+
     width: 100%;
+    max-width: calc(33.333% - 1rem);
+
     margin-top: 5%;
     margin-bottom: 5%;
 
@@ -15,12 +26,17 @@
     .portfolio-header {
         font-size: 22px;
     }
+
+    .portfolio-item {
+        flex: 1 1 calc(50% - 0.5rem);
+        max-width: calc(50% - 0.5rem);
+    }
 }
 
 @media (min-width: 600px) and (max-width: 1200px) {
     .portfolio-container {
-        padding-left: 20vw;
-        padding-right: 20vw;
+        padding-left: 10vw;
+        padding-right: 10vw;
     }
 
     .portfolio-header {
@@ -30,8 +46,8 @@
 
 @media (min-width: 1200px) {
     .portfolio-container {
-        padding-left: 33.33vw;
-        padding-right: 33.33vw;
+        padding-left: 20vw;
+        padding-right: 20vw;
     }
 
     .portfolio-header {
