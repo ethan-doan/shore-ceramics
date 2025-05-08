@@ -1,5 +1,6 @@
 import "../styles/AboutMe.css";
 import Socials from "./Socials.tsx";
+import { Media } from "../constants/Media.ts";
 
 function AboutMe() {
     return (
@@ -7,7 +8,7 @@ function AboutMe() {
             <div className="about-me-header">About Me</div>
             <img
                 className="about-me-portrait"
-                src="/media/Portrait.jpg"
+                src={Media.Portrait}
                 alt="portrait"
             />
             <div className="about-me-content">

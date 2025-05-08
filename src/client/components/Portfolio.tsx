@@ -1,5 +1,6 @@
 import "../styles/Portfolio.css";
 import Socials from "./Socials.tsx";
+import { Media } from "../constants/Media.ts";
 
 function Portfolio() {
     return (
@@ -8,88 +9,88 @@ function Portfolio() {
             <div className="portfolio-grid">
                 <img
                     className="portfolio-item"
-                    src="/media/BlueMug.jpg"
-                    alt=""
+                    src={Media.BlueMug}
+                    alt="Blue Mug"
                 />
                 <img
                     className="portfolio-item"
-                    src="/media/GreenMug.jpg"
-                    alt=""
+                    src={Media.GreenMug}
+                    alt="Green Mug"
                 />
                 <img
                     className="portfolio-item"
-                    src="/media/GreenMugTall.jpg"
-                    alt=""
+                    src={Media.GreenMugTall}
+                    alt="Dark Planter"
                 />
                 <img
                     className="portfolio-item"
-                    src="/media/CactusMug.jpg"
-                    alt=""
+                    src={Media.CactusMug}
+                    alt="Cactus Mug"
                 />
                 <img
                     className="portfolio-item"
-                    src="/media/PurpleBubbleVase.jpg"
-                    alt=""
+                    src={Media.PurpleBubbleVase}
+                    alt="Purple Bubble Vase"
                 />
                 <img
                     className="portfolio-item"
-                    src="/media/ModernLineVase.jpg"
-                    alt=""
+                    src={Media.ModernLineVase}
+                    alt="Modern Line Vase"
                 />
                 <img
                     className="portfolio-item"
-                    src="/media/BubblegumMug.jpg"
-                    alt=""
+                    src={Media.BubblegumMug}
+                    alt="Bubblegum Mug"
                 />
                 <img
                     className="portfolio-item"
-                    src="/media/MoodyBowl.jpg"
-                    alt=""
+                    src={Media.MoodyBowl}
+                    alt="Moody Bowl"
                 />
                 <img
                     className="portfolio-item"
-                    src="/media/DoubleMugs.jpg"
-                    alt=""
+                    src={Media.DoubleMugs}
+                    alt="Double Mugs"
                 />
                 <img
                     className="portfolio-item"
-                    src="/media/PurpleMug.jpg"
-                    alt=""
+                    src={Media.PurpleMug}
+                    alt="Purple Mug"
                 />
                 <img
                     className="portfolio-item"
-                    src="/media/RedVase.jpg"
-                    alt=""
+                    src={Media.RedVase}
+                    alt="Red Vase"
                 />
                 <img
                     className="portfolio-item"
-                    src="/media/LightPinkRingDish.jpg"
-                    alt=""
+                    src={Media.LightPinkRingDish}
+                    alt="Light Pink Ring Dish"
                 />
                 <img
                     className="portfolio-item"
-                    src="/media/RainforestMug.jpg"
-                    alt=""
+                    src={Media.RainforestMug}
+                    alt="Rainforest Mug"
                 />
                 <img
                     className="portfolio-item"
-                    src="/media/GreenCup.jpg"
-                    alt=""
+                    src={Media.GreenCup}
+                    alt="Green Cup"
                 />
                 <img
                     className="portfolio-item"
-                    src="/media/RusticRedVase.jpg"
-                    alt=""
+                    src={Media.RusticRedVase}
+                    alt="Rustic Red Vase"
                 />
                 <img
                     className="portfolio-item"
-                    src="/media/GalaxyCup.jpg"
-                    alt=""
+                    src={Media.GalaxyCup}
+                    alt="Galaxy Cup"
                 />
                 <img
                     className="portfolio-item"
-                    src="/media/SeaweedVase.jpg"
-                    alt=""
+                    src={Media.SeaweedVase}
+                    alt="Seaweed Vase"
                 />
             </div>
             <Socials />

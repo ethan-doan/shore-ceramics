@@ -4,6 +4,7 @@ import { useRef, useState } from "react";
 import Socials from "./Socials.tsx";
 import emailjs from "@emailjs/browser";
 import { EmailJSResponseStatus } from "@emailjs/browser";
+import { Media } from "../constants/Media.ts";
 
 function Home() {
     const formRef = useRef<HTMLFormElement>(null);
@@ -59,17 +60,17 @@ function Home() {
             <div className="home-image-array">
                 <img
                     className="home-image"
-                    src="/media/PurpleMug.jpg"
+                    src={Media.PurpleMug}
                     alt="purple mug"
                 />
                 <img
                     className="home-image"
-                    src="/media/RedVase.jpg"
+                    src={Media.RedVase}
                     alt="red vasel"
                 />
                 <img
                     className="home-image"
-                    src="/media/GreenMugTall.jpg"
+                    src={Media.GreenMugTall}
                     alt="green planter"
                 />
             </div>

@@ -1,6 +1,7 @@
 import "../styles/Shop.css";
 import Socials from "./Socials.tsx";
 import ShopItem from "./ShopItem.tsx";
+import { Media } from "../constants/Media.ts";
 
 function Shop() {
     return (
@@ -8,28 +9,28 @@ function Shop() {
             <div className="shop-content">
                 <div className="shop-grid-item">
                     <ShopItem
-                        imageUrl="/media/GreenMugTall.jpg"
+                        imageUrl={Media.GreenMugTall}
                         description="Dark Planter"
                         price="$40.00"
                     />
                 </div>
                 <div className="shop-grid-item">
                     <ShopItem
-                        imageUrl="/media/ModernLineVase.jpg"
+                        imageUrl={Media.ModernLineVase}
                         description="Modern Line Vase"
                         price="$40.00"
                     />
                 </div>
                 <div className="shop-grid-item">
                     <ShopItem
-                        imageUrl="/media/BubblegumMug.jpg"
+                        imageUrl={Media.BubblegumMug}
                         description="Bubblegum Mug"
                         price="$25.00"
                     />
                 </div>
                 <div className="shop-grid-item">
                     <ShopItem
-                        imageUrl="/media/MoodyBowl.jpg"
+                        imageUrl={Media.MoodyBowl}
                         description="Moody Bowl"
                         price="$45.00"
                     />
