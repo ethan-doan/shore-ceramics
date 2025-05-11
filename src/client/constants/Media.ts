@@ -1,38 +1,38 @@
 export const Media = {
     BlueMug:
-        "https://firebasestorage.googleapis.com/v0/b/shoreceramics-9dcdb.firebasestorage.app/o/media%2FBlueMug.jpg?alt=media&token=ab28dec5-76e7-4866-abe1-9e1398785cae",
+        "https://firebasestorage.googleapis.com/v0/b/shoreceramics-9dcdb.firebasestorage.app/o/media%2FBlueMug.webp?alt=media&token=64109ba2-3e8a-4c3c-980b-35bdf6c18120",
     BubblegumMug:
-        "https://firebasestorage.googleapis.com/v0/b/shoreceramics-9dcdb.firebasestorage.app/o/media%2FBubblegumMug.jpg?alt=media&token=4c88a8e4-3b5d-4144-9bbe-466b583a6cf9",
+        "https://firebasestorage.googleapis.com/v0/b/shoreceramics-9dcdb.firebasestorage.app/o/media%2FBubblegumMug.webp?alt=media&token=7d2e1d8a-7569-4aa4-acab-d0280c01626d",
     CactusMug:
-        "https://firebasestorage.googleapis.com/v0/b/shoreceramics-9dcdb.firebasestorage.app/o/media%2FCactusMug.jpg?alt=media&token=d594760a-6f12-4467-a257-cce3e3ad4df5",
+        "https://firebasestorage.googleapis.com/v0/b/shoreceramics-9dcdb.firebasestorage.app/o/media%2FCactusMug.webp?alt=media&token=970d3bf1-a329-4899-9139-0fa7330a4f0d",
     DoubleMugs:
-        "https://firebasestorage.googleapis.com/v0/b/shoreceramics-9dcdb.firebasestorage.app/o/media%2FDoubleMugs.jpg?alt=media&token=de6ab6fe-4b2f-4dbe-84e4-202034c97ed4",
+        "https://firebasestorage.googleapis.com/v0/b/shoreceramics-9dcdb.firebasestorage.app/o/media%2FDoubleMugs.webp?alt=media&token=a078aac0-c6e2-44b8-974b-e93ae1118427",
     GalaxyCup:
-        "https://firebasestorage.googleapis.com/v0/b/shoreceramics-9dcdb.firebasestorage.app/o/media%2FGalaxyCup.jpg?alt=media&token=e9d0b2f8-18e9-4c2f-913e-d9982b2ebd8b",
+        "https://firebasestorage.googleapis.com/v0/b/shoreceramics-9dcdb.firebasestorage.app/o/media%2FGalaxyCup.webp?alt=media&token=60c3f8c6-63e7-48cb-bc60-5a616f7b865f",
     GreenCup:
-        "https://firebasestorage.googleapis.com/v0/b/shoreceramics-9dcdb.firebasestorage.app/o/media%2FGreenCup.jpg?alt=media&token=4ed0a570-bd21-4f21-b86f-6a0652708ff9",
+        "https://firebasestorage.googleapis.com/v0/b/shoreceramics-9dcdb.firebasestorage.app/o/media%2FGreenCup.webp?alt=media&token=cf4a0f8f-2d9d-43db-81a5-bf1e764d40c7",
     GreenMug:
-        "https://firebasestorage.googleapis.com/v0/b/shoreceramics-9dcdb.firebasestorage.app/o/media%2FGreenMug.jpg?alt=media&token=ed3f4d44-354b-4acf-a209-7cb53f919a9b",
+        "https://firebasestorage.googleapis.com/v0/b/shoreceramics-9dcdb.firebasestorage.app/o/media%2FGreenMug.webp?alt=media&token=6fa10899-4db1-45b6-8fa3-2615d4381cf8",
     GreenMugTall:
-        "https://firebasestorage.googleapis.com/v0/b/shoreceramics-9dcdb.firebasestorage.app/o/media%2FGreenMugTall.jpg?alt=media&token=93ff9476-2188-4d1a-b1c4-ffed8336fce8",
+        "https://firebasestorage.googleapis.com/v0/b/shoreceramics-9dcdb.firebasestorage.app/o/media%2FGreenMugTall.webp?alt=media&token=3ef40a4c-45b4-459b-a2e3-847f2dac773f",
     LightPinkRingDish:
-        "https://firebasestorage.googleapis.com/v0/b/shoreceramics-9dcdb.firebasestorage.app/o/media%2FLightPinkRingDish.jpg?alt=media&token=42b1e5f1-2ec0-4898-ba8e-471259eb1e04",
+        "https://firebasestorage.googleapis.com/v0/b/shoreceramics-9dcdb.firebasestorage.app/o/media%2FLightPinkRingDish.webp?alt=media&token=1b21b172-d832-49e4-ace5-53e8c26957c9",
     ModernLineVase:
-        "https://firebasestorage.googleapis.com/v0/b/shoreceramics-9dcdb.firebasestorage.app/o/media%2FModernLineVase.jpg?alt=media&token=f4c071e4-3b9b-45ed-b10f-9a491cba5f46",
+        "https://firebasestorage.googleapis.com/v0/b/shoreceramics-9dcdb.firebasestorage.app/o/media%2FModernLineVase.webp?alt=media&token=bb6cec6e-dc93-4d18-953e-0c39a718d522",
     MoodyBowl:
-        "https://firebasestorage.googleapis.com/v0/b/shoreceramics-9dcdb.firebasestorage.app/o/media%2FMoodyBowl.jpg?alt=media&token=d06d875c-4578-4460-aab1-8f9159d6f592",
+        "https://firebasestorage.googleapis.com/v0/b/shoreceramics-9dcdb.firebasestorage.app/o/media%2FMoodyBowl.webp?alt=media&token=40b4ed67-200b-42de-9d67-6061f195538d",
     Portrait:
-        "https://firebasestorage.googleapis.com/v0/b/shoreceramics-9dcdb.firebasestorage.app/o/media%2FPortrait.jpg?alt=media&token=3c097975-c16a-4df0-8136-778e57d588d4",
+        "https://firebasestorage.googleapis.com/v0/b/shoreceramics-9dcdb.firebasestorage.app/o/media%2FPortrait.webp?alt=media&token=5e08dd2d-85d0-40f3-a212-42a265223aaf",
     PurpleBubbleVase:
-        "https://firebasestorage.googleapis.com/v0/b/shoreceramics-9dcdb.firebasestorage.app/o/media%2FPurpleBubbleVase.jpg?alt=media&token=d99a10f6-bdb8-4797-a48c-e31456b113ef",
+        "https://firebasestorage.googleapis.com/v0/b/shoreceramics-9dcdb.firebasestorage.app/o/media%2FPurpleBubbleVase.webp?alt=media&token=c8a816b3-389d-479c-878d-7ea795089c62",
     PurpleMug:
-        "https://firebasestorage.googleapis.com/v0/b/shoreceramics-9dcdb.firebasestorage.app/o/media%2FPurpleMug.jpg?alt=media&token=5aab6cdf-65b4-4e1f-b951-e707485aeae3",
+        "https://firebasestorage.googleapis.com/v0/b/shoreceramics-9dcdb.firebasestorage.app/o/media%2FPurpleMug.webp?alt=media&token=95f8ff47-4495-47d8-b9d2-1deed74d2c4f",
     RainforestMug:
-        "https://firebasestorage.googleapis.com/v0/b/shoreceramics-9dcdb.firebasestorage.app/o/media%2FRainforestMug.jpg?alt=media&token=f757438f-99a7-4c63-8b65-a6b9f6772f05",
+        "https://firebasestorage.googleapis.com/v0/b/shoreceramics-9dcdb.firebasestorage.app/o/media%2FRainforestMug.webp?alt=media&token=1d10c12c-e056-467f-aefc-64d5cdcf894f",
     RedVase:
-        "https://firebasestorage.googleapis.com/v0/b/shoreceramics-9dcdb.firebasestorage.app/o/media%2FRedVase.jpg?alt=media&token=ae883754-8614-411e-a208-65e454aaa06f",
+        "https://firebasestorage.googleapis.com/v0/b/shoreceramics-9dcdb.firebasestorage.app/o/media%2FRedVase.webp?alt=media&token=a1ae08bd-0c8b-48f0-8458-72a3f41cb385",
     RusticRedVase:
-        "https://firebasestorage.googleapis.com/v0/b/shoreceramics-9dcdb.firebasestorage.app/o/media%2FRusticRedVase.jpg?alt=media&token=e5b6582f-a2b3-4a45-b1bd-b94ec9dd6955",
+        "https://firebasestorage.googleapis.com/v0/b/shoreceramics-9dcdb.firebasestorage.app/o/media%2FRusticRedVase.webp?alt=media&token=fbf2eeba-661b-4a77-9c05-073127670b3f",
     SeaweedVase:
-        "https://firebasestorage.googleapis.com/v0/b/shoreceramics-9dcdb.firebasestorage.app/o/media%2FSeaweedVase.jpg?alt=media&token=f220225c-4547-40a9-b488-e7cd484a9c78",
+        "https://firebasestorage.googleapis.com/v0/b/shoreceramics-9dcdb.firebasestorage.app/o/media%2FSeaweedVase.webp?alt=media&token=32d36c5c-f60a-4138-81e5-ff7cee1df4b0",
 };
