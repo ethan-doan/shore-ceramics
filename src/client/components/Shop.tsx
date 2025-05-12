@@ -9,28 +9,28 @@ function Shop() {
             <div className="shop-content">
                 <div className="shop-grid-item">
                     <ShopItem
-                        imageUrl={Media.GreenMugTall}
+                        imageUrl={Media.GreenMugTallThumbnail}
                         description="Dark Planter"
                         price="$40.00"
                     />
                 </div>
                 <div className="shop-grid-item">
                     <ShopItem
-                        imageUrl={Media.ModernLineVase}
+                        imageUrl={Media.ModernLineVaseThumbnail}
                         description="Modern Line Vase"
                         price="$40.00"
                     />
                 </div>
                 <div className="shop-grid-item">
                     <ShopItem
-                        imageUrl={Media.BubblegumMug}
+                        imageUrl={Media.BubblegumMugThumbnail}
                         description="Bubblegum Mug"
                         price="$25.00"
                     />
                 </div>
                 <div className="shop-grid-item">
                     <ShopItem
-                        imageUrl={Media.MoodyBowl}
+                        imageUrl={Media.MoodyBowlThumbnail}
                         description="Moody Bowl"
                         price="$45.00"
                     />

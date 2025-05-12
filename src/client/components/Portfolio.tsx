@@ -9,103 +9,103 @@ function Portfolio() {
             <div className="portfolio-grid">
                 <img
                     className="portfolio-item"
-                    src={Media.BlueMug}
+                    src={Media.BlueMugThumbnail}
                     alt="Blue Mug"
                     loading="lazy"
                 />
                 <img
                     className="portfolio-item"
-                    src={Media.GreenMug}
+                    src={Media.GreenMugThumbnail}
                     alt="Green Mug"
                     loading="lazy"
                 />
                 <img
                     className="portfolio-item"
-                    src={Media.GreenMugTall}
+                    src={Media.GreenMugTallThumbnail}
                     alt="Dark Planter"
                     loading="lazy"
                 />
                 <img
                     className="portfolio-item"
-                    src={Media.CactusMug}
+                    src={Media.CactusMugThumbnail}
                     alt="Cactus Mug"
                     loading="lazy"
                 />
                 <img
                     className="portfolio-item"
-                    src={Media.PurpleBubbleVase}
+                    src={Media.PurpleBubbleVaseThumbnail}
                     alt="Purple Bubble Vase"
                     loading="lazy"
                 />
                 <img
                     className="portfolio-item"
-                    src={Media.ModernLineVase}
+                    src={Media.ModernLineVaseThumbnail}
                     alt="Modern Line Vase"
                     loading="lazy"
                 />
                 <img
                     className="portfolio-item"
-                    src={Media.BubblegumMug}
+                    src={Media.BubblegumMugThumbnail}
                     alt="Bubblegum Mug"
                     loading="lazy"
                 />
                 <img
                     className="portfolio-item"
-                    src={Media.MoodyBowl}
+                    src={Media.MoodyBowlThumbnail}
                     alt="Moody Bowl"
                     loading="lazy"
                 />
                 <img
                     className="portfolio-item"
-                    src={Media.DoubleMugs}
+                    src={Media.DoubleMugsThumbnail}
                     alt="Double Mugs"
                     loading="lazy"
                 />
                 <img
                     className="portfolio-item"
-                    src={Media.PurpleMug}
+                    src={Media.PurpleMugThumbnail}
                     alt="Purple Mug"
                     loading="lazy"
                 />
                 <img
                     className="portfolio-item"
-                    src={Media.RedVase}
+                    src={Media.RedVaseThumbnail}
                     alt="Red Vase"
                     loading="lazy"
                 />
                 <img
                     className="portfolio-item"
-                    src={Media.LightPinkRingDish}
+                    src={Media.LightPinkRingDishThumbnail}
                     alt="Light Pink Ring Dish"
                     loading="lazy"
                 />
                 <img
                     className="portfolio-item"
-                    src={Media.RainforestMug}
+                    src={Media.RainforestMugThumbnail}
                     alt="Rainforest Mug"
                     loading="lazy"
                 />
                 <img
                     className="portfolio-item"
-                    src={Media.GreenCup}
+                    src={Media.GreenCupThumbnail}
                     alt="Green Cup"
                     loading="lazy"
                 />
                 <img
                     className="portfolio-item"
-                    src={Media.RusticRedVase}
+                    src={Media.RusticRedVaseThumbnail}
                     alt="Rustic Red Vase"
                     loading="lazy"
                 />
                 <img
                     className="portfolio-item"
-                    src={Media.GalaxyCup}
+                    src={Media.GalaxyCupThumbnail}
                     alt="Galaxy Cup"
                     loading="lazy"
                 />
                 <img
                     className="portfolio-item"
-                    src={Media.SeaweedVase}
+                    src={Media.SeaweedVaseThumbnail}
                     alt="Seaweed Vase"
                     loading="lazy"
                 />
