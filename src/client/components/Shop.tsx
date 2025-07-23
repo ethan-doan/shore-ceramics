@@ -30,13 +30,6 @@ function Shop() {
         </div>
         <div className="shop-grid-item">
           <ShopItem
-            imageUrl={Media.OceanMug}
-            description="Ocean Mug"
-            price="$25.00"
-          />
-        </div>
-        <div className="shop-grid-item">
-          <ShopItem
             imageUrl={Media.GalaxyVase}
             description="Galaxy Vase"
             price="$20.00"
