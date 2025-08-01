@@ -84,13 +84,6 @@ function Shop() {
             price="$10.00"
           />
         </div>
-        <div className="shop-grid-item">
-          <ShopItem
-            imageUrl={Media.ChimineaIncenseBurner}
-            description="ChimineaIncenseBurner"
-            price="$40.00"
-          />
-        </div>
       </div>
       <Socials />
     </div>
