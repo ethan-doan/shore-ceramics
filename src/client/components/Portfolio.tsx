@@ -163,6 +163,54 @@ function Portfolio() {
           alt="Chiminea Incense Burner"
           loading="lazy"
         />
+        <img
+          className="portfolio-item"
+          src={Media.NorthernLightsPlanter}
+          alt="Northern Lights Planter"
+          loading="lazy"
+        />
+        <img
+          className="portfolio-item"
+          src={Media.Bookends}
+          alt="Bookends"
+          loading="lazy"
+        />
+        <img
+          className="portfolio-item"
+          src={Media.HoneyJar}
+          alt="Honey Jar"
+          loading="lazy"
+        />
+        <img
+          className="portfolio-item"
+          src={Media.BubblyPlanter}
+          alt="Bubbly Planter"
+          loading="lazy"
+        />
+        <img
+          className="portfolio-item"
+          src={Media.SageGrippyCup}
+          alt="Sage Grippy Cup"
+          loading="lazy"
+        />
+        <img
+          className="portfolio-item"
+          src={Media.BubblyGrippyCup}
+          alt="Bubbly Grippy Cup"
+          loading="lazy"
+        />
+        <img
+          className="portfolio-item"
+          src={Media.PearlMoonJar}
+          alt="Pearl Moon Jar"
+          loading="lazy"
+        />
+        <img
+          className="portfolio-item"
+          src={Media.BlueberryBakingDish}
+          alt="Blueberry Baking Dish"
+          loading="lazy"
+        />
       </div>
       <Socials />
     </div>

@@ -1,16 +1,24 @@
 export const Media = {
   AquaStoneBowl:
     "https://firebasestorage.googleapis.com/v0/b/shoreceramics-9dcdb.firebasestorage.app/o/media%2FAquaStoneBowl.webp?alt=media&token=c89d0896-9d28-47e3-b608-03b275c60401",
+  BlueberryBakingDish:
+    "https://firebasestorage.googleapis.com/v0/b/shoreceramics-9dcdb.firebasestorage.app/o/media%2FBluberryBakingDish.webp?alt=media&token=28355414-af4a-40e0-ab23-bfcde99aed51",
   BlueCrystalVase:
     "https://firebasestorage.googleapis.com/v0/b/shoreceramics-9dcdb.firebasestorage.app/o/media%2FBlueCrystalVase.webp?alt=media&token=b22bcae0-d4f0-4d97-bafe-5b8870d27837",
   BlueMug:
     "https://firebasestorage.googleapis.com/v0/b/shoreceramics-9dcdb.firebasestorage.app/o/media%2FBlueMug.webp?alt=media&token=64109ba2-3e8a-4c3c-980b-35bdf6c18120",
   BlueMugThumbnail:
     "https://firebasestorage.googleapis.com/v0/b/shoreceramics-9dcdb.firebasestorage.app/o/media%2FBlueMugThumbnail.webp?alt=media&token=c1e71141-287c-4e09-ae26-e1443c7b504d",
+  Bookends:
+    "https://firebasestorage.googleapis.com/v0/b/shoreceramics-9dcdb.firebasestorage.app/o/media%2FBookends.webp?alt=media&token=ab0990cb-5def-4ef6-8d07-481789e91855",
   BubblegumMug:
     "https://firebasestorage.googleapis.com/v0/b/shoreceramics-9dcdb.firebasestorage.app/o/media%2FBubblegumMug.webp?alt=media&token=7d2e1d8a-7569-4aa4-acab-d0280c01626d",
   BubblegumMugThumbnail:
     "https://firebasestorage.googleapis.com/v0/b/shoreceramics-9dcdb.firebasestorage.app/o/media%2FBubblegumMug.webp?alt=media&token=7d2e1d8a-7569-4aa4-acab-d0280c01626d",
+  BubblyGrippyCup:
+    "https://firebasestorage.googleapis.com/v0/b/shoreceramics-9dcdb.firebasestorage.app/o/media%2FBublyGrippyCup.webp?alt=media&token=ee197981-d608-4e4d-9c6c-e7d9023250ab",
+  BubblyPlanter:
+    "https://firebasestorage.googleapis.com/v0/b/shoreceramics-9dcdb.firebasestorage.app/o/media%2FBublyPlanter.webp?alt=media&token=d6420376-d977-474d-ae36-2f65250e83a6",
   CactusMug:
     "https://firebasestorage.googleapis.com/v0/b/shoreceramics-9dcdb.firebasestorage.app/o/media%2FCactusMug.webp?alt=media&token=970d3bf1-a329-4899-9139-0fa7330a4f0d",
   CactusMugThumbnail:
@@ -41,6 +49,10 @@ export const Media = {
     "https://firebasestorage.googleapis.com/v0/b/shoreceramics-9dcdb.firebasestorage.app/o/media%2FGreenMugTall.webp?alt=media&token=3ef40a4c-45b4-459b-a2e3-847f2dac773f",
   GreenMugTallThumbnail:
     "https://firebasestorage.googleapis.com/v0/b/shoreceramics-9dcdb.firebasestorage.app/o/media%2FGreenMugTallThumbnail.webp?alt=media&token=0b87cbc0-a0be-4d53-b5aa-4ec256b26844",
+  HoneyJar:
+    "https://firebasestorage.googleapis.com/v0/b/shoreceramics-9dcdb.firebasestorage.app/o/media%2FHoneyJar.webp?alt=media&token=5500b77c-e703-43bb-8b87-37a5b8d731fc",
+  HoneyPlanter:
+    "https://firebasestorage.googleapis.com/v0/b/shoreceramics-9dcdb.firebasestorage.app/o/media%2FHoneyJar.webp?alt=media&token=5500b77c-e703-43bb-8b87-37a5b8d731fc",
   IceCreamBowlSet:
     "https://firebasestorage.googleapis.com/v0/b/shoreceramics-9dcdb.firebasestorage.app/o/media%2FIceCreamBowlSet.webp?alt=media&token=80bed0fd-635e-4527-810a-fe48b0600552",
   LightPinkRingDish:
@@ -55,8 +67,12 @@ export const Media = {
     "https://firebasestorage.googleapis.com/v0/b/shoreceramics-9dcdb.firebasestorage.app/o/media%2FMoodyBowl.webp?alt=media&token=40b4ed67-200b-42de-9d67-6061f195538d",
   MoodyBowlThumbnail:
     "https://firebasestorage.googleapis.com/v0/b/shoreceramics-9dcdb.firebasestorage.app/o/media%2FMoodyBowlThumbnail.webp?alt=media&token=25d30267-4840-4cc3-90ff-29bc4e1c5cee",
+  NorthernLightsPlanter:
+    "https://firebasestorage.googleapis.com/v0/b/shoreceramics-9dcdb.firebasestorage.app/o/media%2FNorthernLightsPlanter.webp?alt=media&token=995b098d-ad20-4bb4-818d-9f0ab8c238f2",
   OceanMug:
     "https://firebasestorage.googleapis.com/v0/b/shoreceramics-9dcdb.firebasestorage.app/o/media%2FOceanMug.webp?alt=media&token=809c9387-991d-48dc-8451-8375ad67a78d",
+  PearlMoonJar:
+    "https://firebasestorage.googleapis.com/v0/b/shoreceramics-9dcdb.firebasestorage.app/o/media%2FPearlMoonJar.webp?alt=media&token=ddafe97c-1dc1-417c-a7a0-44eb303640bd",
   PolishVase:
     "https://firebasestorage.googleapis.com/v0/b/shoreceramics-9dcdb.firebasestorage.app/o/media%2FPolishVase.webp?alt=media&token=ce2e810d-ce41-41ec-8215-b53a64e5fda7",
   Portrait:
@@ -81,6 +97,8 @@ export const Media = {
     "https://firebasestorage.googleapis.com/v0/b/shoreceramics-9dcdb.firebasestorage.app/o/media%2FRusticRedVase.webp?alt=media&token=fbf2eeba-661b-4a77-9c05-073127670b3f",
   RusticRedVaseThumbnail:
     "https://firebasestorage.googleapis.com/v0/b/shoreceramics-9dcdb.firebasestorage.app/o/media%2FRusticRedVaseThumbnail.webp?alt=media&token=d047d842-fe35-4bb2-bda9-2ac39aa324eb",
+  SageGrippyCup:
+    "https://firebasestorage.googleapis.com/v0/b/shoreceramics-9dcdb.firebasestorage.app/o/media%2FSageGrippyCup.webp?alt=media&token=1f82fd6b-74b2-495c-9dd4-23b34f6cad02",
   SagePlate:
     "https://firebasestorage.googleapis.com/v0/b/shoreceramics-9dcdb.firebasestorage.app/o/media%2FSagePlate.webp?alt=media&token=97407d59-a0c5-47f2-a37f-678c40198752",
   SeaweedVase:
