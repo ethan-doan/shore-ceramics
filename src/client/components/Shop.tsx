@@ -9,13 +9,6 @@ function Shop() {
       <div className="shop-content">
         <div className="shop-grid-item">
           <ShopItem
-            imageUrl={Media.ModernLineVaseThumbnail}
-            description="Modern Line Vase"
-            price="$40.00"
-          />
-        </div>
-        <div className="shop-grid-item">
-          <ShopItem
             imageUrl={Media.MoodyBowlThumbnail}
             description="Moody Bowl"
             price="$45.00"
@@ -79,8 +72,36 @@ function Shop() {
         </div>
         <div className="shop-grid-item">
           <ShopItem
-            imageUrl={Media.SagePlate}
-            description="Sage Plate"
+            imageUrl={Media.SingleServePitcher}
+            description="Single Serve Pitcher"
+            price="$20.00"
+          />
+        </div>
+        <div className="shop-grid-item">
+          <ShopItem
+            imageUrl={Media.DesertSandPlanter}
+            description="Desert Sand Planter"
+            price="$20.00"
+          />
+        </div>
+        <div className="shop-grid-item">
+          <ShopItem
+            imageUrl={Media.PearlMoonJar}
+            description="Pearl Moon Jar"
+            price="$30.00"
+          />
+        </div>
+        <div className="shop-grid-item">
+          <ShopItem
+            imageUrl={Media.HoneyJar}
+            description="Honey Jar"
+            price="$40.00"
+          />
+        </div>
+        <div className="shop-grid-item">
+          <ShopItem
+            imageUrl={Media.BubblyGrippyCup}
+            description="Desert Sand Thumb Cup"
             price="$10.00"
           />
         </div>

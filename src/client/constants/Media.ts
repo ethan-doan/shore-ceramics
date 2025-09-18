@@ -27,6 +27,8 @@ export const Media = {
     "https://firebasestorage.googleapis.com/v0/b/shoreceramics-9dcdb.firebasestorage.app/o/media%2FChimineaIncenseBurner.webp?alt=media&token=dd993a94-ddfb-4c0f-a684-5589af9e8be4",
   CrystalLargeBowl:
     "https://firebasestorage.googleapis.com/v0/b/shoreceramics-9dcdb.firebasestorage.app/o/media%2FCrystalLargeBowl.webp?alt=media&token=8f531ebf-b0a0-46c9-bded-ff080f2daa95",
+  DesertSandPlanter:
+    "https://firebasestorage.googleapis.com/v0/b/shoreceramics-9dcdb.firebasestorage.app/o/media%2FDesertSandPlanter.webp?alt=media&token=c12d15dd-56aa-478f-9428-27eb46ed04c4",
   DoubleMugs:
     "https://firebasestorage.googleapis.com/v0/b/shoreceramics-9dcdb.firebasestorage.app/o/media%2FDoubleMugs.webp?alt=media&token=a078aac0-c6e2-44b8-974b-e93ae1118427",
   DoubleMugsThumbnail:
@@ -105,4 +107,6 @@ export const Media = {
     "https://firebasestorage.googleapis.com/v0/b/shoreceramics-9dcdb.firebasestorage.app/o/media%2FSeaweedVase.webp?alt=media&token=7dbb96d5-02c7-40da-a699-00388e48f6d2",
   SeaweedVaseThumbnail:
     "https://firebasestorage.googleapis.com/v0/b/shoreceramics-9dcdb.firebasestorage.app/o/media%2FSeaweedVaseThumbnail.webp?alt=media&token=d6f97f29-2919-474b-a9ae-eef3bc080db0",
+  SingleServePitcher:
+    "https://firebasestorage.googleapis.com/v0/b/shoreceramics-9dcdb.firebasestorage.app/o/media%2FSingleServePitcher.webp?alt=media&token=b2ea5d09-12c7-4998-96b0-77536e36b1e9",
 };
