@@ -5,6 +5,8 @@ export const Media = {
     "https://firebasestorage.googleapis.com/v0/b/shoreceramics-9dcdb.firebasestorage.app/o/media%2FBluberryBakingDish.webp?alt=media&token=28355414-af4a-40e0-ab23-bfcde99aed51",
   BlueCrystalVase:
     "https://firebasestorage.googleapis.com/v0/b/shoreceramics-9dcdb.firebasestorage.app/o/media%2FBlueCrystalVase.webp?alt=media&token=b22bcae0-d4f0-4d97-bafe-5b8870d27837",
+  BlueGrayHerbStripper:
+    "https://firebasestorage.googleapis.com/v0/b/shoreceramics-9dcdb.firebasestorage.app/o/media%2FBlueGrayHerbStripper.webp?alt=media&token=9f1f8dd8-fd10-4974-a020-faac069bb61a",
   BlueMug:
     "https://firebasestorage.googleapis.com/v0/b/shoreceramics-9dcdb.firebasestorage.app/o/media%2FBlueMug.webp?alt=media&token=64109ba2-3e8a-4c3c-980b-35bdf6c18120",
   BlueMugThumbnail:
@@ -59,6 +61,10 @@ export const Media = {
     "https://firebasestorage.googleapis.com/v0/b/shoreceramics-9dcdb.firebasestorage.app/o/media%2FIceCreamBowlSet.webp?alt=media&token=80bed0fd-635e-4527-810a-fe48b0600552",
   LightPinkRingDish:
     "https://firebasestorage.googleapis.com/v0/b/shoreceramics-9dcdb.firebasestorage.app/o/media%2FLightPinkRingDish.webp?alt=media&token=1b21b172-d832-49e4-ace5-53e8c26957c9",
+  MintChipHerbStripper:
+    "https://firebasestorage.googleapis.com/v0/b/shoreceramics-9dcdb.firebasestorage.app/o/media%2FMintChipHerbStripper.webp?alt=media&token=a004d86f-a23e-446a-8d91-62be668ec074",
+  MintChipVase:
+    "https://firebasestorage.googleapis.com/v0/b/shoreceramics-9dcdb.firebasestorage.app/o/media%2FMintChipVase.webp?alt=media&token=1d89efe4-af1d-4899-91a8-de9b551985e5",
   LightPinkRingDishThumbnail:
     "https://firebasestorage.googleapis.com/v0/b/shoreceramics-9dcdb.firebasestorage.app/o/media%2FLightPinkRingDishThumbnail.webp?alt=media&token=a99bbafa-5b45-4172-8c4c-f9d1d2a6d73f",
   ModernLineVase:
@@ -109,4 +115,6 @@ export const Media = {
     "https://firebasestorage.googleapis.com/v0/b/shoreceramics-9dcdb.firebasestorage.app/o/media%2FSeaweedVaseThumbnail.webp?alt=media&token=d6f97f29-2919-474b-a9ae-eef3bc080db0",
   SingleServePitcher:
     "https://firebasestorage.googleapis.com/v0/b/shoreceramics-9dcdb.firebasestorage.app/o/media%2FSingleServePitcher.webp?alt=media&token=b2ea5d09-12c7-4998-96b0-77536e36b1e9",
+  SpeckledMoonVase:
+    "https://firebasestorage.googleapis.com/v0/b/shoreceramics-9dcdb.firebasestorage.app/o/media%2FSpeckledMoonVase.webp?alt=media&token=6b83eab2-7a10-4902-b913-1eea0fb26b93",
 };

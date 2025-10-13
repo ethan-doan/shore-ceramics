@@ -211,6 +211,30 @@ function Portfolio() {
           alt="Blueberry Baking Dish"
           loading="lazy"
         />
+        <img
+          className="portfolio-item"
+          src={Media.SpeckledMoonVase}
+          alt="Speckled Moon Vase"
+          loading="lazy"
+        />
+        <img
+          className="portfolio-item"
+          src={Media.MintChipVase}
+          alt="Mint Chip Vase"
+          loading="lazy"
+        />
+        <img
+          className="portfolio-item"
+          src={Media.MintChipHerbStripper}
+          alt="Mint Chip Herb Stripper"
+          loading="lazy"
+        />
+        <img
+          className="portfolio-item"
+          src={Media.BlueGrayHerbStripper}
+          alt="Blue Gray Herb Stripper"
+          loading="lazy"
+        />
       </div>
       <Socials />
     </div>
