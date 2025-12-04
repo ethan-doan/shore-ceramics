@@ -30,20 +30,6 @@ function Shop() {
         </div>
         <div className="shop-grid-item">
           <ShopItem
-            imageUrl={Media.BlueCrystalVase}
-            description="Blue Crystal Vase"
-            price="$25.00"
-          />
-        </div>
-        <div className="shop-grid-item">
-          <ShopItem
-            imageUrl={Media.SeaweedVase}
-            description="Seaweed Vase"
-            price="$30.00"
-          />
-        </div>
-        <div className="shop-grid-item">
-          <ShopItem
             imageUrl={Media.GalaxyCup}
             description="Galaxy Cup"
             price="$10.00"
@@ -65,23 +51,9 @@ function Shop() {
         </div>
         <div className="shop-grid-item">
           <ShopItem
-            imageUrl={Media.PearlMoonJar}
-            description="Pearl Moon Jar"
-            price="$30.00"
-          />
-        </div>
-        <div className="shop-grid-item">
-          <ShopItem
             imageUrl={Media.BubblyGrippyCup}
             description="Desert Sand Thumb Cup"
             price="$10.00"
-          />
-        </div>
-        <div className="shop-grid-item">
-          <ShopItem
-            imageUrl={Media.SpeckledMoonVase}
-            description="Speckled Moon Vase"
-            price="$20.00"
           />
         </div>
       </div>
