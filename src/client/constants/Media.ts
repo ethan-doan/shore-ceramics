@@ -17,6 +17,8 @@ export const Media = {
     "https://firebasestorage.googleapis.com/v0/b/shoreceramics-9dcdb.firebasestorage.app/o/media%2FBubblegumMug.webp?alt=media&token=7d2e1d8a-7569-4aa4-acab-d0280c01626d",
   BubblegumMugThumbnail:
     "https://firebasestorage.googleapis.com/v0/b/shoreceramics-9dcdb.firebasestorage.app/o/media%2FBubblegumMug.webp?alt=media&token=7d2e1d8a-7569-4aa4-acab-d0280c01626d",
+  BubblegumVase:
+    "https://firebasestorage.googleapis.com/v0/b/shoreceramics-9dcdb.firebasestorage.app/o/media%2FBubblegumVase.webp?alt=media&token=a5a6b604-d436-4dff-875a-b5bba810e501",
   BubblyGrippyCup:
     "https://firebasestorage.googleapis.com/v0/b/shoreceramics-9dcdb.firebasestorage.app/o/media%2FBublyGrippyCup.webp?alt=media&token=ee197981-d608-4e4d-9c6c-e7d9023250ab",
   BubblyPlanter:
@@ -49,6 +51,9 @@ export const Media = {
     "https://firebasestorage.googleapis.com/v0/b/shoreceramics-9dcdb.firebasestorage.app/o/media%2FGreenMug.webp?alt=media&token=6fa10899-4db1-45b6-8fa3-2615d4381cf8",
   GreenMugThumbnail:
     "https://firebasestorage.googleapis.com/v0/b/shoreceramics-9dcdb.firebasestorage.app/o/media%2FGreenMugThumbnail.webp?alt=media&token=b3bcc177-5218-48ad-bc49-d58b3cdbe33e",
+  Hero: "https://firebasestorage.googleapis.com/v0/b/shoreceramics-9dcdb.firebasestorage.app/o/media%2FHero-2.webp?alt=media&token=18716c62-81cf-4a85-8dce-58908886a474",
+  HeroMobile:
+    "https://firebasestorage.googleapis.com/v0/b/shoreceramics-9dcdb.firebasestorage.app/o/media%2FHeroMobile.webp?alt=media&token=bc3400b7-ab5c-4fb9-be6c-a3d7c701c49e",
   GreenMugTall:
     "https://firebasestorage.googleapis.com/v0/b/shoreceramics-9dcdb.firebasestorage.app/o/media%2FGreenMugTall.webp?alt=media&token=3ef40a4c-45b4-459b-a2e3-847f2dac773f",
   GreenMugTallThumbnail:
@@ -59,10 +64,14 @@ export const Media = {
     "https://firebasestorage.googleapis.com/v0/b/shoreceramics-9dcdb.firebasestorage.app/o/media%2FHoneyJar.webp?alt=media&token=5500b77c-e703-43bb-8b87-37a5b8d731fc",
   IceCreamBowlSet:
     "https://firebasestorage.googleapis.com/v0/b/shoreceramics-9dcdb.firebasestorage.app/o/media%2FIceCreamBowlSet.webp?alt=media&token=80bed0fd-635e-4527-810a-fe48b0600552",
+  JadeMug:
+    "https://firebasestorage.googleapis.com/v0/b/shoreceramics-9dcdb.firebasestorage.app/o/media%2FJadeMug.webp?alt=media&token=ab995a62-2181-43f5-95a5-2c67ffc0e0a1",
   LightPinkRingDish:
     "https://firebasestorage.googleapis.com/v0/b/shoreceramics-9dcdb.firebasestorage.app/o/media%2FLightPinkRingDish.webp?alt=media&token=1b21b172-d832-49e4-ace5-53e8c26957c9",
   MintChipHerbStripper:
     "https://firebasestorage.googleapis.com/v0/b/shoreceramics-9dcdb.firebasestorage.app/o/media%2FMintChipHerbStripper.webp?alt=media&token=a004d86f-a23e-446a-8d91-62be668ec074",
+  MintChipPlanter:
+    "https://firebasestorage.googleapis.com/v0/b/shoreceramics-9dcdb.firebasestorage.app/o/media%2FMintChipPlanter.webp?alt=media&token=c2942104-3fc3-4b92-9308-9ddad11017ed",
   MintChipVase:
     "https://firebasestorage.googleapis.com/v0/b/shoreceramics-9dcdb.firebasestorage.app/o/media%2FMintChipVase.webp?alt=media&token=1d89efe4-af1d-4899-91a8-de9b551985e5",
   LightPinkRingDishThumbnail:
@@ -85,6 +94,8 @@ export const Media = {
     "https://firebasestorage.googleapis.com/v0/b/shoreceramics-9dcdb.firebasestorage.app/o/media%2FPolishVase.webp?alt=media&token=ce2e810d-ce41-41ec-8215-b53a64e5fda7",
   Portrait:
     "https://firebasestorage.googleapis.com/v0/b/shoreceramics-9dcdb.firebasestorage.app/o/media%2FPortrait.webp?alt=media&token=5e08dd2d-85d0-40f3-a212-42a265223aaf",
+  Portrait2:
+    "https://firebasestorage.googleapis.com/v0/b/shoreceramics-9dcdb.firebasestorage.app/o/media%2FPortrait2.webp?alt=media&token=11d5813b-de5e-46aa-8e1e-35d610184116",
   PurpleBubbleVase:
     "https://firebasestorage.googleapis.com/v0/b/shoreceramics-9dcdb.firebasestorage.app/o/media%2FPurpleBubbleVase.webp?alt=media&token=c8a816b3-389d-479c-878d-7ea795089c62",
   PurpleBubbleVaseThumbnail:
@@ -103,10 +114,16 @@ export const Media = {
     "https://firebasestorage.googleapis.com/v0/b/shoreceramics-9dcdb.firebasestorage.app/o/media%2FRedVaseThumbnail.webp?alt=media&token=a62353c8-5c8e-411a-a945-db793cff6bee",
   RusticRedVase:
     "https://firebasestorage.googleapis.com/v0/b/shoreceramics-9dcdb.firebasestorage.app/o/media%2FRusticRedVase.webp?alt=media&token=fbf2eeba-661b-4a77-9c05-073127670b3f",
+  RusticHoneyBowl:
+    "https://firebasestorage.googleapis.com/v0/b/shoreceramics-9dcdb.firebasestorage.app/o/media%2FRusticHoneyBowl.webp?alt=media&token=ee52a400-e49f-4c9a-817b-66db05b26726",
+  RusticHoneypotVase:
+    "https://firebasestorage.googleapis.com/v0/b/shoreceramics-9dcdb.firebasestorage.app/o/media%2FRusticHoneypotVase.webp?alt=media&token=4f38f462-3ce2-4ec1-bdb2-b9ac271e4fec",
   RusticRedVaseThumbnail:
     "https://firebasestorage.googleapis.com/v0/b/shoreceramics-9dcdb.firebasestorage.app/o/media%2FRusticRedVaseThumbnail.webp?alt=media&token=d047d842-fe35-4bb2-bda9-2ac39aa324eb",
   SageGrippyCup:
     "https://firebasestorage.googleapis.com/v0/b/shoreceramics-9dcdb.firebasestorage.app/o/media%2FSageGrippyCup.webp?alt=media&token=1f82fd6b-74b2-495c-9dd4-23b34f6cad02",
+  SagePlanter:
+    "https://firebasestorage.googleapis.com/v0/b/shoreceramics-9dcdb.firebasestorage.app/o/media%2FSagePlanter.webp?alt=media&token=92634903-f815-460b-8394-75764192d994",
   SagePlate:
     "https://firebasestorage.googleapis.com/v0/b/shoreceramics-9dcdb.firebasestorage.app/o/media%2FSagePlate.webp?alt=media&token=97407d59-a0c5-47f2-a37f-678c40198752",
   SeaweedVase:
@@ -117,4 +134,8 @@ export const Media = {
     "https://firebasestorage.googleapis.com/v0/b/shoreceramics-9dcdb.firebasestorage.app/o/media%2FSingleServePitcher.webp?alt=media&token=b2ea5d09-12c7-4998-96b0-77536e36b1e9",
   SpeckledMoonVase:
     "https://firebasestorage.googleapis.com/v0/b/shoreceramics-9dcdb.firebasestorage.app/o/media%2FSpeckledMoonVase.webp?alt=media&token=6b83eab2-7a10-4902-b913-1eea0fb26b93",
+  SpeckledSageCoffeeTableBowl:
+    "https://firebasestorage.googleapis.com/v0/b/shoreceramics-9dcdb.firebasestorage.app/o/media%2FSpeckledSageCoffeeTableBowl.webp?alt=media&token=8b816a98-ef56-41e3-ba1d-03a80fa3c654",
+  TerracottaChiminea:
+    "https://firebasestorage.googleapis.com/v0/b/shoreceramics-9dcdb.firebasestorage.app/o/media%2FTerracottaChiminea.webp?alt=media&token=88eb5eba-a7c0-4e4b-9a64-bc1ca0dde357",
 };

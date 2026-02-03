@@ -5,6 +5,7 @@ import Socials from "./Socials.tsx";
 import emailjs from "@emailjs/browser";
 import { EmailJSResponseStatus } from "@emailjs/browser";
 import { Media } from "../constants/Media.ts";
+import { Link } from "react-router-dom";
 
 function Home() {
   const formRef = useRef<HTMLFormElement>(null);
@@ -22,7 +23,7 @@ function Home() {
         "service_rdjy9ce",
         "template_bvcc7cp",
         formRef.current,
-        "MqPxgpxuq6ZHXMigo"
+        "MqPxgpxuq6ZHXMigo",
       )
       .then(
         (result: EmailJSResponseStatus) => {
@@ -30,35 +31,48 @@ function Home() {
           setStatus(SubmissionStatus.Success);
           formRef.current?.reset();
         },
-        // eslint-disable-next-line @typescript-eslint/no-explicit-any
-        (error: any) => {
+        (error: EmailJSResponseStatus) => {
           setStatus(SubmissionStatus.Error);
           console.error("Failed to send email:", error.text);
-        }
+        },
       );
   };
 
   return (
     <div className="home-container fade-in">
       {/* <div className="home-upcoming-shows">
-                    <div className="home-header">Upcoming Shows</div>
-                    <div
-                        className="home-description"
-                        style={{ marginTop: "0.5rem" }}
-                    >
-                        Saturday, June 7th
-                    </div>
-                    <div className="home-description">
-                        Additional Details Coming Soon...
-                    </div>
-                </div> */}
-
+        <div className="home-header">Upcoming Shows</div>
+        <div
+            className="home-description"
+            style={{ marginTop: "0.5rem" }}
+        >
+            Saturday, June 7th
+        </div>
+        <div className="home-description">
+            Additional Details Coming Soon...
+        </div>
+      </div> */}
+      <div className="home-hero-content">
+        <picture>
+          <source media="(max-width: 600px)" srcSet={Media.HeroMobile} />
+          <img
+            className="home-hero"
+            src={Media.Hero}
+            alt="Shore Ceramics hero"
+          />
+        </picture>
+        <h1 className="home-hero-title">Shore Ceramics</h1>
+      </div>
       <div className="home-image-array">
-        <img className="home-image" src={Media.PurpleMug} alt="purple mug" />
-        <img className="home-image" src={Media.RedVase} alt="red vasel" />
         <img
           className="home-image"
-          src={Media.GreenMugTall}
+          src={Media.RusticHoneypotVase}
+          alt="purple mug"
+        />
+        <img className="home-image" src={Media.JadeMug} alt="red vasel" />
+        <img
+          className="home-image"
+          src={Media.RusticHoneyBowl}
           alt="green planter"
         />
       </div>
@@ -77,6 +91,37 @@ function Home() {
             shipping throughout the US.
           </div>
         </div>
+        <img
+          alt="portrait"
+          src={Media.Portrait2}
+          className="home-about-me-image"
+        />
+      </div>
+      <div className="home-image-array">
+        <Link to="/shop" className="home-image-link">
+          <span className="home-image-link-title">Shop</span>
+          <img
+            alt="mint chip vase"
+            src={Media.PolishVase}
+            className="home-image-nav"
+          />
+        </Link>
+        <Link to="/portfolio" className="home-image-link">
+          <span className="home-image-link-title">Portfolio</span>
+          <img
+            className="home-image-nav"
+            src={Media.SpeckledMoonVase}
+            alt="bookends"
+          />
+        </Link>
+        <Link to="/about-me" className="home-image-link">
+          <span className="home-image-link-title">About Me</span>
+          <img
+            alt="green planter"
+            src={Media.MintChipVase}
+            className="home-image-nav"
+          />
+        </Link>
       </div>
       <form ref={formRef} className="contact-form" onSubmit={handleSubmit}>
         <div className="home-mailing-list-alert-banner">

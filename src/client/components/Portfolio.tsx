@@ -235,6 +235,48 @@ function Portfolio() {
           alt="Blue Gray Herb Stripper"
           loading="lazy"
         />
+        <img
+          className="portfolio-item"
+          src={Media.BubblegumVase}
+          alt="Blue Gray Herb Stripper"
+          loading="lazy"
+        />
+        <img
+          className="portfolio-item"
+          src={Media.JadeMug}
+          alt="Blue Gray Herb Stripper"
+          loading="lazy"
+        />
+        <img
+          className="portfolio-item"
+          src={Media.RusticHoneyBowl}
+          alt="Blue Gray Herb Stripper"
+          loading="lazy"
+        />
+        <img
+          className="portfolio-item"
+          src={Media.RusticHoneypotVase}
+          alt="Blue Gray Herb Stripper"
+          loading="lazy"
+        />
+        <img
+          className="portfolio-item"
+          src={Media.SagePlanter}
+          alt="Blue Gray Herb Stripper"
+          loading="lazy"
+        />
+        <img
+          className="portfolio-item"
+          src={Media.SpeckledSageCoffeeTableBowl}
+          alt="Blue Gray Herb Stripper"
+          loading="lazy"
+        />
+        <img
+          className="portfolio-item"
+          src={Media.TerracottaChiminea}
+          alt="Blue Gray Herb Stripper"
+          loading="lazy"
+        />
       </div>
       <Socials />
     </div>
