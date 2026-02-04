@@ -9,13 +9,6 @@ function Shop() {
       <div className="shop-content">
         <div className="shop-grid-item">
           <ShopItem
-            imageUrl={Media.MoodyBowlThumbnail}
-            description="Moody Bowl"
-            price="$45.00"
-          />
-        </div>
-        <div className="shop-grid-item">
-          <ShopItem
             imageUrl={Media.CrystalLargeBowl}
             description="Large Crystal Bowl"
             price="$40.00"
