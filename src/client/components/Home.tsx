@@ -79,17 +79,16 @@ function Home() {
       <div className="home-about-me">
         <div className="home-about-me-content">
           <div className="home-header" style={{ marginBottom: "1rem" }}>
-            Handmade Pottery
+            Comissions are OPEN!
           </div>
           <div className="home-description">
-            Hi, I’m Lauren and I’ve been doing pottery for as long as I can
-            remember. I started in art class in elementary school, and really
-            focused on throwing on the wheel in high school. Now that I’m in my
-            twenties, I’ve rediscovered my passion for ceramics! Take a look
-            around at my recent work and contact me about commissions or to
-            purchase a piece. Currently offering hand delivery in Omaha, and
-            shipping throughout the US.
+            Interested in purchasing a custom piece? Please contact me below and
+            we can discuss further. Keep in mind creating a custom piece can
+            take 3-5 weeks depending on quantity and complexity of design.
           </div>
+          <Link to="/contact" className="home-commissions-button">
+            Contact Me
+          </Link>
         </div>
         <img
           alt="portrait"

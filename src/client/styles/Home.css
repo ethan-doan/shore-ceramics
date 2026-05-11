@@ -124,6 +124,31 @@
   padding: 2rem 2rem 2rem 5rem;
 }
 
+.home-commissions-button {
+  display: inline-block;
+  width: fit-content;
+
+  margin-top: 1.25rem;
+  padding: 0.6rem 1.1rem;
+
+  font-family: "Spectral", serif;
+  font-size: 1rem;
+  color: #7dacc0;
+  text-decoration: none;
+
+  background-color: #e9f1f4;
+  border: 1.5px solid #e9f1f4;
+  border-radius: 7.5px;
+
+  transition: all 0.12s ease;
+}
+
+.home-commissions-button:hover,
+.home-commissions-button:focus-visible {
+  color: #e9f1f4;
+  background-color: transparent;
+}
+
 .home-about-me-tiktok {
   padding: 2rem;
 }
