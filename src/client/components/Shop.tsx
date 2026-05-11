@@ -16,13 +16,6 @@ function Shop() {
         </div>
         <div className="shop-grid-item">
           <ShopItem
-            imageUrl={Media.GalaxyVase}
-            description="Galaxy Vase"
-            price="$20.00"
-          />
-        </div>
-        <div className="shop-grid-item">
-          <ShopItem
             imageUrl={Media.SingleServePitcher}
             description="Single Serve Pitcher"
             price="$20.00"
